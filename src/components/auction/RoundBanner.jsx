@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { AlertTriangle, RotateCcw } from 'lucide-react';
+import { RotateCcw } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 export default function RoundBanner({ round, playerIndex, totalPlayers }) {

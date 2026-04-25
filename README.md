@@ -1,39 +1,49 @@
-**Welcome to your Base44 project** 
+# PKL Auction
+PKL Auction is a web application for running and managing player auctions with a live room experience.
 
-**About**
+## Getting Starte
+1. Clone this repository.
+2. Open the project folder.
+3. Install dependencies:
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
-
-This project contains everything you need to run your app locally.
-
-**Edit the code in your local development environment**
-
-Any change pushed to the repo will also be reflected in the Base44 Builder.
-
-**Prerequisites:** 
-
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
-
+```bash
+npm install
 ```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+4. Create an environment file:
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+```bash
+.env.local
 ```
 
-Run the app: `npm run dev`
+Add the required environment variables for your backend and auth setup.
 
-**Publish your changes**
+## Run Locally
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+```bash
+npm run dev
+```
 
-**Docs & Support**
+The app will start in development mode using Vite.
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+## Build for Production
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+
+## Notes
+
+- Keep secrets in `.env.local` and never commit them.
+- Use your Git remote to publish updates.
