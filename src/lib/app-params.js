@@ -34,17 +34,44 @@ const getAppParamValue = (paramName, { defaultValue = undefined, removeFromUrl =
 	return null;
 }
 
-const getAppParams = () => {
-	if (getAppParamValue("clear_access_token") === 'true') {
-		storage.removeItem('pkl_access_token');
-		storage.removeItem('token');
-	}
-	return {
-		appId: getAppParamValue("app_id", { defaultValue: import.meta.env.VITE_PKL_APP_ID }),
-		token: getAppParamValue("access_token", { removeFromUrl: true }),
-		fromUrl: getAppParamValue("from_url", { defaultValue: isNode ? '' : window.location.href }),
-		functionsVersion: getAppParamValue("functions_version", { defaultValue: import.meta.env.VITE_PKL_FUNCTIONS_VERSION }),
-		appBaseUrl: getAppParamValue("app_base_url", { defaultValue: import.meta.env.VITE_PKL_APP_BASE_URL }),
+export function getAppParams() {
+	try {
+		let appIdFromQuery = null;
+		if (!isNode) {
+			const url = new URL(window.location.href);
+			appIdFromQuery = url.searchParams.get('appId');
+		}
+
+		const appIdFromEnv = import.meta.env.VITE_APP_ID || import.meta.env.VITE_PKL_APP_ID;
+
+		if (getAppParamValue('clear_access_token') === 'true') {
+			storage.removeItem('pkl_access_token');
+			storage.removeItem('token');
+		}
+
+		const appIdFromExistingParam = getAppParamValue('app_id', { defaultValue: appIdFromEnv });
+		const appId = appIdFromQuery || appIdFromExistingParam || appIdFromEnv;
+
+		if (!appId) {
+			console.warn('appId not found in URL or ENV');
+		}
+
+		return {
+			appId: appId || null,
+			token: getAppParamValue('access_token', { removeFromUrl: true }),
+			fromUrl: getAppParamValue('from_url', { defaultValue: isNode ? '' : window.location.href }),
+			functionsVersion: getAppParamValue('functions_version', { defaultValue: import.meta.env.VITE_PKL_FUNCTIONS_VERSION }),
+			appBaseUrl: getAppParamValue('app_base_url', { defaultValue: import.meta.env.VITE_PKL_APP_BASE_URL }),
+		}
+	} catch (error) {
+		console.error('Error getting app params:', error);
+		return {
+			appId: null,
+			token: null,
+			fromUrl: isNode ? '' : window.location.href,
+			functionsVersion: import.meta.env.VITE_PKL_FUNCTIONS_VERSION || null,
+			appBaseUrl: import.meta.env.VITE_PKL_APP_BASE_URL || null,
+		}
 	}
 }
 

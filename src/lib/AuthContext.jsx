@@ -43,6 +43,13 @@ const mapAuthUser = (authUser) => {
 };
 
 const fetchPublicSettings = async () => {
+  if (!appParams?.appId) {
+    console.error('appId is missing. Skipping API call.');
+    const error = new Error('appId is missing. Skipping API call.');
+    error.status = 400;
+    throw error;
+  }
+
   const headers = {
     'X-App-Id': appParams.appId,
   };
@@ -51,21 +58,27 @@ const fetchPublicSettings = async () => {
     headers.Authorization = `Bearer ${appParams.token}`;
   }
 
-  const response = await fetch(`/api/apps/public/prod/public-settings/by-id/${appParams.appId}`, {
-    method: 'GET',
-    headers,
-  });
+  try {
+    const response = await fetch(`/api/apps/public/prod/public-settings/by-id/${appParams.appId}`, {
+      method: 'GET',
+      headers,
+    });
 
-  const body = await response.json().catch(() => ({}));
+    const body = await response.json().catch(() => ({}));
 
-  if (!response.ok) {
-    const error = new Error(body?.message || 'Failed to load app');
-    error.status = response.status;
-    error.data = body;
+    if (!response.ok) {
+      const error = new Error(body?.message || 'Failed to load app');
+      error.status = response.status;
+      error.data = body;
+      throw error;
+    }
+
+    console.log('App data loaded:', body);
+    return body;
+  } catch (error) {
+    console.error('App state check failed:', error);
     throw error;
   }
-
-  return body;
 };
 
 /**
