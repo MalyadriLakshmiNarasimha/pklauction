@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import RoleBadge from '../shared/RoleBadge';
 import GlassCard from '../shared/GlassCard';
+import { formatBasePrice } from '@/lib/utils';
 
 export default function PlayerCard({ player, status }) {
   if (!player) return null;
@@ -56,18 +57,21 @@ export default function PlayerCard({ player, status }) {
 
             <div className="mt-4 flex items-center gap-2">
               <span className="text-xs text-muted-foreground">Base Price</span>
-              <span className="text-lg font-bold text-pkl-yellow">₹{player.basePrice} Cr</span>
+              <span className="text-lg font-bold text-pkl-yellow">{formatBasePrice(player.basePrice)}</span>
             </div>
 
             {/* Stats */}
-            <div className="mt-4 grid grid-cols-3 gap-3">
+            <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
               {[
-                { label: 'Raids', value: player.stats?.raids || 0 },
-                { label: 'Points', value: player.stats?.points || 0 },
-                { label: 'Matches', value: player.stats?.matches || 0 },
+                { label: 'Raid Pts', value: player.stats?.raids },
+                { label: 'Def Pts', value: player.stats?.defence },
+                { label: 'Total Pts', value: player.stats?.points },
+                { label: 'Matches', value: player.stats?.matches },
               ].map((s, i) => (
                 <div key={i} className="text-center p-2 rounded-lg bg-muted/30">
-                  <p className="text-lg font-bold text-foreground">{s.value}</p>
+                  <p className={`text-lg font-bold ${s.value === 'NYP' ? 'text-orange-500' : 'text-foreground'}`}>
+                    {s.value ?? 0}
+                  </p>
                   <p className="text-xs text-muted-foreground">{s.label}</p>
                 </div>
               ))}

@@ -13,9 +13,78 @@ import RoundBanner from '../components/auction/RoundBanner';
 import PlayerFilterModal from '../components/auction/PlayerFilterModal';
 import HostControls from '../components/auction/HostControls';
 import GlassCard from '../components/shared/GlassCard';
-import { PKL_PLAYERS, TEAM_COLORS } from '@/lib/mockData';
+import { TEAM_COLORS } from '@/lib/mockData';
 import { useAuth } from '@/lib/AuthContext';
+import { formatBasePrice } from '@/lib/utils';
+import { usePKLPlayers } from '@/hooks/usePKLPlayers';
 import { toast } from 'sonner';
+
+const ROLE_ORDER = ['Raider', 'Defender', 'All Rounder'];
+
+function normalizeRole(role) {
+  return String(role || '').toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function shuffleCopy(items) {
+  const next = [...items];
+  for (let i = next.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [next[i], next[j]] = [next[j], next[i]];
+  }
+  return next;
+}
+
+function categoryWise(players) {
+  const buckets = {
+    raider: [],
+    defender: [],
+    'all rounder': [],
+    other: [],
+  };
+
+  players.forEach(player => {
+    const key = normalizeRole(player.role);
+    if (key === 'raider') buckets.raider.push(player);
+    else if (key === 'defender') buckets.defender.push(player);
+    else if (key === 'all rounder') buckets['all rounder'].push(player);
+    else buckets.other.push(player);
+  });
+
+  return [
+    ...shuffleCopy(buckets.raider),
+    ...shuffleCopy(buckets.defender),
+    ...shuffleCopy(buckets['all rounder']),
+    ...shuffleCopy(buckets.other),
+  ];
+}
+
+function randomOrder(players) {
+  return shuffleCopy(players);
+}
+
+function mixedOrder(players) {
+  const buckets = ROLE_ORDER.map(role => shuffleCopy(
+    players.filter(player => normalizeRole(player.role) === normalizeRole(role))
+  ));
+  const other = shuffleCopy(players.filter(player => !ROLE_ORDER.some(role => normalizeRole(player.role) === normalizeRole(role))));
+  const rotation = shuffleCopy([...ROLE_ORDER, 'Other']);
+  const ordered = [];
+
+  while (buckets.some(bucket => bucket.length) || other.length) {
+    rotation.forEach(role => {
+      if (role === 'Other') {
+        if (other.length) ordered.push(other.pop());
+        return;
+      }
+      const index = ROLE_ORDER.findIndex(item => item === role);
+      if (index >= 0 && buckets[index].length) {
+        ordered.push(buckets[index].shift());
+      }
+    });
+  }
+
+  return ordered;
+}
 
 // ── Auction phase states ─────────────────────────────────────────────────────
 // 'pre'         — waiting for host to select players and start
@@ -29,6 +98,9 @@ export default function AuctionRoom() {
   const { user } = useAuth();
   const ownerAccountId = user?.id || user?.email || 'local';
   const ownerAccountEmail = user?.email || '';
+
+  // Load enriched players with stats
+  const { players: enrichedPlayers, loading: playersLoading } = usePKLPlayers();
 
   const urlParams = new URLSearchParams(window.location.search);
   const isAdmin      = urlParams.get('admin') === 'true';
@@ -85,16 +157,55 @@ export default function AuctionRoom() {
     },
   }));
 
+  // Keep team map aligned if user id changes from temporary "local" to authenticated id.
+  useEffect(() => {
+    setTeams(prev => {
+      if (prev[currentUser.id]) return prev;
+
+      if (prev.local) {
+        const { local, ...rest } = prev;
+        return {
+          ...rest,
+          [currentUser.id]: {
+            ...local,
+            id: currentUser.id,
+            name: currentUser.name,
+            color: currentUser.color,
+          },
+        };
+      }
+
+      return {
+        ...prev,
+        [currentUser.id]: {
+          id: currentUser.id,
+          name: currentUser.name,
+          color: currentUser.color,
+          purse: configPurse,
+          players: [],
+        },
+      };
+    });
+  }, [currentUser.id, currentUser.name, currentUser.color, configPurse]);
+
   // ── UI state ───────────────────────────────────────────────────────────────
   const [chatOpen, setChatOpen] = useState(false);
   const [chatInput, setChatInput] = useState('');
   const [chatMessages, setChatMessages] = useState([]);
   const [filterOpen, setFilterOpen] = useState(false);
-  const [selectedPlayerIds, setSelectedPlayerIds] = useState(new Set(PKL_PLAYERS.map(p => p.id)));
+  const [selectedPlayerIds, setSelectedPlayerIds] = useState(new Set());
   const [round2SelectedIds, setRound2SelectedIds] = useState(new Set());
+  const [auctionMode, setAuctionMode] = useState('mixed');
   const [activityFeed, setActivityFeed] = useState([
     { id: 1, type: 'bid', message: '🏏 Auction room ready. Host is selecting players…', timestamp: Date.now() },
   ]);
+
+  // Initialize selectedPlayerIds once enriched players are loaded
+  useEffect(() => {
+    if (enrichedPlayers && enrichedPlayers.length > 0) {
+      setSelectedPlayerIds(new Set(enrichedPlayers.map(p => p.id)));
+    }
+  }, [enrichedPlayers]);
 
   const addActivity = useCallback((type, message) => {
     setActivityFeed(prev => [
@@ -137,8 +248,8 @@ export default function AuctionRoom() {
   const handleSold = useCallback(() => {
     if (!currentPlayer || !currentBidder) return;
     setPlayerStatus('sold');
-    toast.success(`🎉 ${currentPlayer.name} SOLD to ${currentBidder.name} for ₹${currentBid.toFixed(2)} Cr!`);
-    addActivity('sold', `${currentPlayer.name} SOLD to ${currentBidder.name} for ₹${currentBid.toFixed(2)} Cr`);
+    toast.success(`🎉 ${currentPlayer.name} SOLD to ${currentBidder.name} for ${formatBasePrice(currentBid)}!`);
+    addActivity('sold', `${currentPlayer.name} SOLD to ${currentBidder.name} for ${formatBasePrice(currentBid)}`);
 
     setTeams(prev => {
       const team = prev[currentBidder.id] || {
@@ -251,19 +362,26 @@ export default function AuctionRoom() {
 
   // ── Start auction (round 1) ────────────────────────────────────────────────
   const startAuction = useCallback(() => {
-    const selected = PKL_PLAYERS.filter(p => selectedPlayerIds.has(p.id));
+    if (!enrichedPlayers) { toast.error('Loading players...'); return; }
+    const selected = enrichedPlayers.filter(p => selectedPlayerIds.has(p.id));
     if (selected.length === 0) { toast.error('Select at least one player'); return; }
-    setPlayerQueue(selected);
+    const orderedPlayers = auctionMode === 'category'
+      ? categoryWise(selected)
+      : auctionMode === 'random'
+        ? randomOrder(selected)
+        : mixedOrder(selected);
+
+    setPlayerQueue(orderedPlayers);
     setCurrentIndex(0);
-    setCurrentPlayer(selected[0]);
+    setCurrentPlayer(orderedPlayers[0]);
     setRound('normal');
     setUnsoldPlayers([]);
     setSoldPlayers([]);
     resetPlayerTracking();
     setPhase('bidding');
-    addActivity('bid', `🏏 Auction started! ${selected.length} players in Round 1.`);
+    addActivity('bid', `🏏 Auction started! ${orderedPlayers.length} players in Round 1 (${auctionMode}).`);
     toast.success('Auction started!');
-  }, [selectedPlayerIds, resetPlayerTracking, addActivity]);
+  }, [selectedPlayerIds, auctionMode, resetPlayerTracking, addActivity, enrichedPlayers]);
 
   // ── Start round 2 ─────────────────────────────────────────────────────────
   const startRound2 = useCallback(() => {
@@ -313,7 +431,7 @@ export default function AuctionRoom() {
 
     // First bid must be >= base price
     if (currentBid === 0 && amount < currentPlayer.basePrice) {
-      toast.error(`First bid must be at least ₹${currentPlayer.basePrice} Cr (base price)`);
+      toast.error(`First bid must be at least ${formatBasePrice(currentPlayer.basePrice)} (base price)`);
       return;
     }
     if (amount > team.purse) { toast.error('Insufficient purse'); return; }
@@ -323,7 +441,7 @@ export default function AuctionRoom() {
     const key = currentPlayer?.id;
     const withdrawnSet = withdrawnBids[key] || new Set();
     if (withdrawnSet.has(amount)) {
-      toast.error(`You already withdrew at ₹${amount.toFixed(2)} Cr for this player`);
+      toast.error(`You already withdrew at ${formatBasePrice(amount)} for this player`);
       return;
     }
 
@@ -331,7 +449,7 @@ export default function AuctionRoom() {
     setCurrentBidder({ ...currentUser });
     setTimer(configTimer);
     setSkippedUsers(new Set()); // reset skips on new bid
-    addActivity('bid', `${currentUser.name} bid ₹${amount.toFixed(2)} Cr`);
+    addActivity('bid', `${currentUser.name} bid ${formatBasePrice(amount)}`);
   }, [teams, currentUser, currentPlayer, currentBid, configSquad, configTimer, withdrawnBids, addActivity]);
 
   // ── Withdraw ───────────────────────────────────────────────────────────────
@@ -346,7 +464,7 @@ export default function AuctionRoom() {
       set.add(level);
       return { ...prev, [key]: set };
     });
-    addActivity('bid', `${currentUser.name} withdrew at ₹${level.toFixed(2)} Cr`);
+    addActivity('bid', `${currentUser.name} withdrew at ${formatBasePrice(level)}`);
     toast('Withdrawn — you can still bid if the price goes higher');
   }, [currentPlayer, currentBid, currentUser, addActivity]);
 
@@ -450,7 +568,7 @@ export default function AuctionRoom() {
                       />
                       <span className="text-sm text-foreground flex-1">{p.name}</span>
                       <span className="text-xs text-muted-foreground">{p.role}</span>
-                      <span className="text-xs text-pkl-green font-medium">₹{p.basePrice} Cr</span>
+                      <span className="text-xs text-pkl-green font-medium">{formatBasePrice(p.basePrice)}</span>
                     </label>
                   ))}
                 </div>
@@ -510,7 +628,7 @@ export default function AuctionRoom() {
                 <span className="text-muted-foreground">
                   <span className="font-semibold text-foreground">{myTeam.name}</span>
                 </span>
-                <span className="text-muted-foreground">Purse: <span className="text-pkl-green font-bold">₹{myTeam.purse.toFixed(1)} Cr</span></span>
+                <span className="text-muted-foreground">Purse: <span className="text-pkl-green font-bold">₹{myTeam.purse.toFixed(1)} L</span></span>
                 <span className="text-muted-foreground">Squad: <span className="text-foreground font-bold">{myTeam.players.length}/{configSquad}</span></span>
               </div>
             )}
@@ -553,9 +671,27 @@ export default function AuctionRoom() {
                 Your team: <span className="font-bold">{currentUser.name}</span>
               </p>
               {isAdmin && (
-                <Button onClick={() => setFilterOpen(true)} variant="outline" className="gap-2 border-pkl-green/30 text-pkl-green">
-                  Filter / Change Players ({selectedPlayerIds.size})
-                </Button>
+                <div className="space-y-3">
+                  <Button onClick={() => setFilterOpen(true)} variant="outline" className="gap-2 border-pkl-green/30 text-pkl-green">
+                    Filter / Change Players ({selectedPlayerIds.size})
+                  </Button>
+
+                  <div className="text-left space-y-1">
+                    <p className="text-xs font-medium text-muted-foreground">Auction Mode</p>
+                    <select
+                      value={auctionMode}
+                      onChange={e => setAuctionMode(e.target.value)}
+                      className="w-full h-10 rounded-xl border border-pkl-green/20 bg-background/80 px-3 text-sm text-foreground outline-none transition focus:border-pkl-green focus:ring-2 focus:ring-pkl-green/20"
+                    >
+                      <option value="category">Category Wise</option>
+                      <option value="random">Random</option>
+                      <option value="mixed">Mixed</option>
+                    </select>
+                    <p className="text-[11px] text-muted-foreground">
+                      Category Wise = Raiders, Defenders, All Rounders. Mixed keeps roles balanced.
+                    </p>
+                  </div>
+                </div>
               )}
             </GlassCard>
           </div>
@@ -597,7 +733,7 @@ export default function AuctionRoom() {
                   myPurse={myTeam?.purse || 0}
                   mySquadCount={myTeam?.players?.length || 0}
                   maxSquad={configSquad}
-                  bidIncrement={0.5}
+                  bidIncrement={0.01}
                   onBid={handleBid}
                   onWithdraw={handleWithdraw}
                   onSkip={handleSkip}
@@ -661,14 +797,16 @@ export default function AuctionRoom() {
       </AnimatePresence>
 
       {/* ── Player Filter Modal ── */}
-      <PlayerFilterModal
-        open={filterOpen}
-        onOpenChange={setFilterOpen}
-        players={PKL_PLAYERS}
-        selectedIds={selectedPlayerIds}
-        onSelectionChange={setSelectedPlayerIds}
-        readOnly={!isAdmin}
-      />
+      {enrichedPlayers && (
+        <PlayerFilterModal
+          open={filterOpen}
+          onOpenChange={setFilterOpen}
+          players={enrichedPlayers}
+          selectedIds={selectedPlayerIds}
+          onSelectionChange={setSelectedPlayerIds}
+          readOnly={!isAdmin}
+        />
+      )}
     </div>
   );
 }

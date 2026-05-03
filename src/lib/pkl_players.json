@@ -1,0 +1,3005 @@
+[
+  {
+    "id": 7,
+    "name": "Chandra Manja Naik",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 17,
+    "name": "Ahmad Reza Asgari",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 18,
+    "name": "Alireza Mirzaian",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 19,
+    "name": "Amit Singh Aman Thakur",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 20,
+    "name": "Dheeraj Rajveer",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 21,
+    "name": "Jitender Yadav",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 22,
+    "name": "Sachin Krishan",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 23,
+    "name": "Sahil Suhas Rane",
+    "role": "All Rounder",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 43,
+    "name": "Moolchand Lekhraj Singh Marko",
+    "role": "All Rounder",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 44,
+    "name": "Shivansh Prem Singh Thakur",
+    "role": "All Rounder",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 61,
+    "name": "Amit",
+    "role": "All Rounder",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 62,
+    "name": "Arkam Shaikh",
+    "role": "All Rounder",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 63,
+    "name": "Ashish Kumar Sangwan",
+    "role": "All Rounder",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 64,
+    "name": "Naveen Rawal",
+    "role": "All Rounder",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 65,
+    "name": "Mohammadreza Shadloui Chiyaneh",
+    "role": "All Rounder",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 71,
+    "name": "Nitin Panwar",
+    "role": "All Rounder",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 81,
+    "name": "Himanshu Sunil Kumar Yadav",
+    "role": "All Rounder",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 82,
+    "name": "Visvanth V",
+    "role": "All Rounder",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 87,
+    "name": "Sahil Azad Narwal",
+    "role": "All Rounder",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 94,
+    "name": "Ashish Narwal",
+    "role": "All Rounder",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 103,
+    "name": "Nitin Rawal",
+    "role": "All Rounder",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 121,
+    "name": "Ankit Jaglan",
+    "role": "All Rounder",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 139,
+    "name": "Aslam Inamdar",
+    "role": "All Rounder",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 157,
+    "name": "Gurdeep",
+    "role": "All Rounder",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 162,
+    "name": "Moein Shafaghi",
+    "role": "All Rounder",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 174,
+    "name": "Suresh Jadhav",
+    "role": "All Rounder",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 175,
+    "name": "Pawan Kumar Sehrawat",
+    "role": "All Rounder",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 176,
+    "name": "Vijay Malik",
+    "role": "All Rounder",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 179,
+    "name": "Bharat Hooda",
+    "role": "All Rounder",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 183,
+    "name": "Shankar Bhimraj Gadai",
+    "role": "All Rounder",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 195,
+    "name": "Ganesh Parki",
+    "role": "All Rounder",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 217,
+    "name": "Amir MD. Zafardanesh",
+    "role": "All Rounder",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 228,
+    "name": "Amarjeet Yadav",
+    "role": "All Rounder",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 229,
+    "name": "Anil",
+    "role": "All Rounder",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 230,
+    "name": "Mohammad Ghorbani",
+    "role": "All Rounder",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 231,
+    "name": "Sachin Narwal",
+    "role": "All Rounder",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 1,
+    "name": "Ankush Rathee",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 4,
+    "name": "Lucky Jaydev Dhankar",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sanjay Krishan Dhull",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 6,
+    "name": "Yogesh Bijender Dahiya",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 13,
+    "name": "Deepak Sankar",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 14,
+    "name": "Manish Dhull",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 15,
+    "name": "Satyappa Matti",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 16,
+    "name": "Shubham Rahate",
+    "role": "Defender",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 25,
+    "name": "Nitesh Kumar",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 28,
+    "name": "Manjeet Sanjay Mitra Choudary",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 29,
+    "name": "Deep Kumar Sanjay Sharma",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 30,
+    "name": "Yash Malik",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 31,
+    "name": "Parteek",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 38,
+    "name": "Amandeep Ranbir Singh Kajal",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 39,
+    "name": "Ankit",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 40,
+    "name": "Ashish Sahdev Malik",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 41,
+    "name": "Harander",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 42,
+    "name": "Sandeep Azad Saini",
+    "role": "Defender",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 46,
+    "name": "Sandeep Deswal",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 48,
+    "name": "Gaurav Hari Om Chillar",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 51,
+    "name": "PO Surjeet Singh",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 52,
+    "name": "Saurabh Nandal",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 53,
+    "name": "Fazel Atrachali",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 54,
+    "name": "Amir Hossein Bastami",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 58,
+    "name": "Anurag Jai Kanwar",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 59,
+    "name": "Mohit Rajesh Narwal",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 60,
+    "name": "Raman Inderjeet Singh",
+    "role": "Defender",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 69,
+    "name": "Himanshu Jaglan",
+    "role": "Defender",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 70,
+    "name": "Lucky Sharma",
+    "role": "Defender",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 72,
+    "name": "Rohit Surender Nandal",
+    "role": "Defender",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 77,
+    "name": "Amit Surender",
+    "role": "Defender",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 78,
+    "name": "Milad Jabbari",
+    "role": "Defender",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 79,
+    "name": "Shubham Kumar",
+    "role": "Defender",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 80,
+    "name": "Sumit",
+    "role": "Defender",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 83,
+    "name": "Jaideep Kuldeep Dahiya",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 85,
+    "name": "Rahul Sethpal",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 89,
+    "name": "Ns.Jayasoorya Nagarajan",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 90,
+    "name": "Manikandan Nesamani",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 93,
+    "name": "Hardeep Ranbir",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 95,
+    "name": "Rahul Rakesh Kalirawna Ahri",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 98,
+    "name": "Ankit Rakesh Dhull",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 99,
+    "name": "Neeraj Kumar",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 100,
+    "name": "Ritik Radheyshyam",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 101,
+    "name": "Sachin",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 102,
+    "name": "Zubair",
+    "role": "Defender",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 104,
+    "name": "Reza Mirbagheri",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 106,
+    "name": "Abhishek KS",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 107,
+    "name": "Ronak Singh Chaudhary",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 110,
+    "name": "Mohit",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 117,
+    "name": "Ashish Randhir Bambal",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 118,
+    "name": "Aryan Satyawan Kumar",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 119,
+    "name": "Deepanshu Pardeep Khatri",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 120,
+    "name": "Sahil Manoj Deswal",
+    "role": "Defender",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 124,
+    "name": "Deepak Singh",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 125,
+    "name": "Navdeep",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 128,
+    "name": "Hamid Mirzaei Nader",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 129,
+    "name": "Sanket Suresh Sawant",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 130,
+    "name": "Sombir",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 131,
+    "name": "Amin Ghorbani",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 136,
+    "name": "Ashish Jagat Birwal",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 137,
+    "name": "Balaji Dhanabal",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 138,
+    "name": "Saurabh Shri Ram Narwal",
+    "role": "Defender",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 141,
+    "name": "Gaurav Khatri",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 144,
+    "name": "Abinesh Nadarajan",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 145,
+    "name": "Mohd Amaan",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 146,
+    "name": "Dadaso Shivaji Pujari",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 149,
+    "name": "Vishal Bhardwaj",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 153,
+    "name": "Rakesh Rajesh",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 154,
+    "name": "Rohan Ashok Tupare",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 155,
+    "name": "Sanjay Jaibir Enania",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 156,
+    "name": "Vaibhav Satappa Rabade",
+    "role": "Defender",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 160,
+    "name": "Anuj Kaluram Gawade",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 161,
+    "name": "Aashish Umed",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 163,
+    "name": "Himanshu",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 164,
+    "name": "Ronak",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 165,
+    "name": "Sagar Rathee",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 167,
+    "name": "Alireza Khalili",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 171,
+    "name": "Mohit Khaler",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 172,
+    "name": "Tarun",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 173,
+    "name": "Tarun",
+    "role": "Defender",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 177,
+    "name": "Ajit Pandurang Pawar",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 178,
+    "name": "Shubham Shashikant Shinde",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 181,
+    "name": "Sagar Sethpal Rawal",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 189,
+    "name": "Aman Mukesh",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 190,
+    "name": "Amir Hossein Ejlali",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 191,
+    "name": "Avi Duhan",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 192,
+    "name": "Bantu Malik",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 193,
+    "name": "Rahul Vinod Dagar",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 194,
+    "name": "Rahul Dagar",
+    "role": "Defender",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 196,
+    "name": "Sumit Sangwan",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 197,
+    "name": "Ashu Singh",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 198,
+    "name": "Hitesh",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 201,
+    "name": "Sahul Kumar",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 202,
+    "name": "Mahender Singh",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 203,
+    "name": "Mohammadreza Kaboudrahangi",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 206,
+    "name": "Gangaram Tanu Ram",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 207,
+    "name": "Sachin Manipal",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 208,
+    "name": "Jayesh Vikas Mahajan",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 213,
+    "name": "Ronak Shri Bhagwan Nain",
+    "role": "Defender",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 214,
+    "name": "Sunil Kumar",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 215,
+    "name": "Parvesh Bhainswal",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 218,
+    "name": "Rinku Sharma",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 219,
+    "name": "Mukilan Shanmugam",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 220,
+    "name": "Lokesh Jaisaram Ghosliya",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 222,
+    "name": "Deepak Kundu",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 226,
+    "name": "Ravi Shivraj Bhati",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 227,
+    "name": "Vijay Kumar Ajmer Redhu",
+    "role": "Defender",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "Akash Santosh Shinde",
+    "role": "Raider",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "Pankaj",
+    "role": "Raider",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 8,
+    "name": "Aashish Malik",
+    "role": "Raider",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 9,
+    "name": "Ganesha B Hanamantagol",
+    "role": "Raider",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 10,
+    "name": "Mahipal Palaram",
+    "role": "Raider",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 11,
+    "name": "Manjeet Thakur",
+    "role": "Raider",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 12,
+    "name": "Shubham Bitake",
+    "role": "Raider",
+    "team": "Bengaluru Bulls",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 24,
+    "name": "Devank Dalal",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 26,
+    "name": "Vishwas S",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sushil Motesh Kambrekar",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 32,
+    "name": "Jang Kun Lee",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 33,
+    "name": "Himanshu Surajmal Narwal",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 34,
+    "name": "Manprit Pardeep",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 35,
+    "name": "Omid Khojasteh Mohammadshah",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 36,
+    "name": "Punit Nasib Kumar",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 37,
+    "name": "Rachit Bangali Babu Yadav",
+    "role": "Raider",
+    "team": "Bengal Warriorz",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 45,
+    "name": "Ashu Malik",
+    "role": "Raider",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 47,
+    "name": "Mohit Deswal",
+    "role": "Raider",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 49,
+    "name": "Ajinkya Ashok Pawar",
+    "role": "Raider",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 50,
+    "name": "Akshit Kuldeep Dhull",
+    "role": "Raider",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 55,
+    "name": "Anil Parbhulal Gurjar",
+    "role": "Raider",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 56,
+    "name": "Neeraj Narwal",
+    "role": "Raider",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 57,
+    "name": "Vijay",
+    "role": "Raider",
+    "team": "Dabang Delhi K.C.",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 66,
+    "name": "Parteek Dahiya",
+    "role": "Raider",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 67,
+    "name": "Rakesh Sungroya",
+    "role": "Raider",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 68,
+    "name": "Himanshu Virender Singh",
+    "role": "Raider",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 73,
+    "name": "Ankit Jai Bhagwan Dahiya",
+    "role": "Raider",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 74,
+    "name": "Aryavardhan Navale",
+    "role": "Raider",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 75,
+    "name": "Harish Kamatchi",
+    "role": "Raider",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 76,
+    "name": "Shridhar Ananda Kadam",
+    "role": "Raider",
+    "team": "Gujarat Giants",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 84,
+    "name": "Vinay",
+    "role": "Raider",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 86,
+    "name": "Shivam Anil Patare",
+    "role": "Raider",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 88,
+    "name": "Vishal Tate",
+    "role": "Raider",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 91,
+    "name": "Ghanshyam Roka Magar",
+    "role": "Raider",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 92,
+    "name": "Vikas Ramdas Jadhav",
+    "role": "Raider",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 96,
+    "name": "Mayank Gurnam Saini",
+    "role": "Raider",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 97,
+    "name": "Sha Mohammed Shahan",
+    "role": "Raider",
+    "team": "Haryana Steelers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 105,
+    "name": "Sombir Ajmer Singh Mehra",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 108,
+    "name": "Ritik  Sudesh Sharma",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 109,
+    "name": "Vinay  Virender Redhu",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 111,
+    "name": "Ali Samadi",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 112,
+    "name": "Meetu Mahender Sharma",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 113,
+    "name": "Nitin Kumar Dhankhar",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 114,
+    "name": "Parvinder Boora",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 115,
+    "name": "Sahil Satpal",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 116,
+    "name": "Uday Kumar Parte",
+    "role": "Raider",
+    "team": "Jaipur Pink Panthers",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 122,
+    "name": "Ayan Lohchab",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 123,
+    "name": "Maninder Singh",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 126,
+    "name": "Sudhakar Maruthamuthu",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 127,
+    "name": "Deepak Ranbir Singh Jaglan",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 132,
+    "name": "Ankit Bijay Kumar Rana",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 133,
+    "name": "Mandeep Tula Ram Kumar",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 134,
+    "name": "Milan Mahak Singh Dahiya",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 135,
+    "name": "Sahil Shahaji Patil",
+    "role": "Raider",
+    "team": "Patna Pirates",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 140,
+    "name": "Pankaj Deepak Mohite",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 142,
+    "name": "Sachin Tanwar",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 143,
+    "name": "Mohit Goyat",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 147,
+    "name": "Aditya Tushar Shinde",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 148,
+    "name": "Mohammad Esmaeil Nabibakhsh",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 150,
+    "name": "Stuwart Surender Singh",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 151,
+    "name": "Abhishek Tukaram Gunge",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 152,
+    "name": "Milad Mohajer",
+    "role": "Raider",
+    "team": "Puneri Paltan",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 158,
+    "name": "Arjun Deshwal",
+    "role": "Raider",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 159,
+    "name": "Narender Hoshiyar Kandola",
+    "role": "Raider",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 166,
+    "name": "Dhiraj Raindra Bailmare",
+    "role": "Raider",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 168,
+    "name": "Abhiraj Manoj Pawar",
+    "role": "Raider",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 169,
+    "name": "Rohit Gopal Lal Beniwal",
+    "role": "Raider",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 170,
+    "name": "Yogesh Yadav",
+    "role": "Raider",
+    "team": "Tamil Thalaivas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 180,
+    "name": "Ashish Kaptan Narwal",
+    "role": "Raider",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 182,
+    "name": "Manjeet",
+    "role": "Raider",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 184,
+    "name": "Chetan Jaybir Sahu",
+    "role": "Raider",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 185,
+    "name": "Rohit Sukhbir Singh Rathee",
+    "role": "Raider",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 186,
+    "name": "Praful Sudam Zaware",
+    "role": "Raider",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 187,
+    "name": "Jai Bhagwan",
+    "role": "Raider",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 188,
+    "name": "Jai Bhagwan",
+    "role": "Raider",
+    "team": "Telugu Titans",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 199,
+    "name": "Bhavani Rajput",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 200,
+    "name": "Surender Gill",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 204,
+    "name": "Gagan Raju Gowda",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 205,
+    "name": "Keshav Bal Krishan Kumar",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 209,
+    "name": "Guman Singh",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 210,
+    "name": "Dong Geon Lee",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 211,
+    "name": "Jatin Bhupender Singh",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 212,
+    "name": "Shivam Chaudhary",
+    "role": "Raider",
+    "team": "UP Yoddhas",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 216,
+    "name": "Ajit Ramesh Chouhan",
+    "role": "Raider",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 221,
+    "name": "Dhanasekar Malayali",
+    "role": "Raider",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 223,
+    "name": "Sathish Kannan Suryan",
+    "role": "Raider",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 224,
+    "name": "Abhimanyu Raghuvanshi",
+    "role": "Raider",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  },
+  {
+    "id": 225,
+    "name": "Sandeep Dukhan Kumar",
+    "role": "Raider",
+    "team": "U Mumba",
+    "basePrice": 0.25,
+    "image": "",
+    "stats": {
+      "raids": 0,
+      "points": 0,
+      "matches": 0
+    }
+  }
+]

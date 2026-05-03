@@ -111,11 +111,11 @@ export default function RoomSetup() {
                     <Slider
                       value={[config.purse]}
                       onValueChange={([v]) => setConfig(c => ({ ...c, purse: v }))}
-                      min={50} max={200} step={5}
+                       min={5} max={10} step={0.5}
                       className="[&_[role=slider]]:bg-pkl-green [&_[role=slider]]:border-pkl-green"
                     />
                     <div className="flex justify-between text-xs text-muted-foreground mt-1">
-                      <span>₹50 Cr</span><span>₹200 Cr</span>
+                       <span>₹5 Cr</span><span>₹10 Cr</span>
                     </div>
                   </div>
 

@@ -4,6 +4,7 @@ import { TrendingUp, Hand, SkipForward } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import GlassCard from '../shared/GlassCard';
 import AnimatedNumber from '../shared/AnimatedNumber';
+import { formatBasePrice } from '@/lib/utils';
 
 export default function BidPanel({
   currentBid,
@@ -32,8 +33,9 @@ export default function BidPanel({
   const alreadyWithdrawnAtNext = withdrawnLevels.has(nextBid);
 
   const canBid = !disabled && !insufficientPurse && !squadFull && !isMyBid && !alreadyWithdrawnAtNext && !skipped;
+  const formatAmount = (value) => formatBasePrice(value);
 
-  const increments = [0.25, 0.5, 1, 2, 5];
+  const increments = [0.01, 0.02, 0.05, 0.1];
 
   // Determine why bid is disabled (for display)
   const bidDisabledReason = (() => {
@@ -41,7 +43,7 @@ export default function BidPanel({
     if (squadFull) return 'Your squad is full';
     if (insufficientPurse) return 'Insufficient purse';
     if (isMyBid) return "You're the highest bidder!";
-    if (alreadyWithdrawnAtNext) return `You withdrew at ₹${nextBid.toFixed(2)} Cr — wait for next increment`;
+    if (alreadyWithdrawnAtNext) return `You withdrew at ${formatAmount(nextBid)} — wait for next increment`;
     return null;
   })();
 
@@ -54,9 +56,9 @@ export default function BidPanel({
         </p>
         <div className="text-4xl sm:text-5xl font-cardo font-bold text-pkl-green">
           {currentBid === 0 ? (
-            <span>₹{basePrice.toFixed(2)} <span className="text-xl">Cr</span></span>
+            <span>{formatBasePrice(basePrice)}</span>
           ) : (
-            <>₹<AnimatedNumber value={currentBid} decimals={2} /><span className="text-xl ml-1">Cr</span></>
+            <span>{formatAmount(currentBid)}</span>
           )}
         </div>
         {currentBid === 0 && (
@@ -91,7 +93,7 @@ export default function BidPanel({
                     : 'bg-muted/50 text-muted-foreground hover:bg-muted'
                 }`}
               >
-                +{inc} Cr
+                +{formatAmount(inc).replace('₹', '')}
               </button>
             ))}
           </div>
@@ -106,7 +108,7 @@ export default function BidPanel({
           className="w-full h-14 bg-pkl-green hover:bg-pkl-green/90 text-white text-lg font-bold rounded-xl glow-green disabled:opacity-40 disabled:cursor-not-allowed"
         >
           <TrendingUp className="w-5 h-5 mr-2" />
-          {currentBid === 0 ? `Open at ₹${firstBidAmount.toFixed(2)} Cr` : `Bid ₹${nextBid.toFixed(2)} Cr`}
+          {currentBid === 0 ? `Open at ${formatAmount(firstBidAmount)}` : `Bid ${formatAmount(nextBid)}`}
         </Button>
 
         <div className="grid grid-cols-2 gap-2">
@@ -144,7 +146,7 @@ export default function BidPanel({
       {/* Withdraw info */}
       {withdrawnLevels.size > 0 && !skipped && (
         <p className="text-xs text-muted-foreground/60 text-center">
-          Withdrawn at: {[...withdrawnLevels].map(v => `₹${v.toFixed(2)}`).join(', ')} Cr
+          Withdrawn at: {[...withdrawnLevels].map(v => formatAmount(v)).join(', ')}
         </p>
       )}
     </GlassCard>

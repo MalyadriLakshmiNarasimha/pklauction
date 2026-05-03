@@ -37,7 +37,7 @@ function TeamCard({ team, isCurrentUser, maxSquad, defaultPurse }) {
           <div className="flex items-center gap-3 mt-0.5">
             <span className="text-xs text-muted-foreground flex items-center gap-1">
               <Wallet className="w-3 h-3" />
-              <AnimatedNumber value={team.purse} prefix="₹" suffix=" Cr" className="text-pkl-green font-medium" />
+              <AnimatedNumber value={team.purse} prefix="₹" suffix=" L" className="text-pkl-green font-medium" />
             </span>
             <span className="text-xs text-muted-foreground flex items-center gap-1">
               <Users className="w-3 h-3" /> {playerCount}/{maxSquad}
@@ -67,12 +67,12 @@ function TeamCard({ team, isCurrentUser, maxSquad, defaultPurse }) {
                   {team.players.map((p, i) => (
                     <div key={i} className="flex items-center justify-between py-1.5 px-2 rounded-lg bg-muted/20">
                       <span className="text-xs text-foreground">{p.name}</span>
-                      <span className="text-xs font-medium text-pkl-yellow">₹{p.price} Cr</span>
+                      <span className="text-xs font-medium text-pkl-yellow">₹{p.price} L</span>
                     </div>
                   ))}
                   <div className="flex items-center justify-between pt-2 border-t border-border/30">
                     <span className="text-xs text-muted-foreground">Total Spent</span>
-                    <span className="text-xs font-bold text-pkl-green">₹{spent.toFixed(2)} Cr</span>
+                    <span className="text-xs font-bold text-pkl-green">₹{spent.toFixed(2)} L</span>
                   </div>
                 </div>
               ) : (

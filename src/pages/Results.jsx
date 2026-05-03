@@ -8,7 +8,7 @@ import {
 import { Button } from '@/components/ui/button';
 import GlassCard from '../components/shared/GlassCard';
 import { Progress } from '@/components/ui/progress';
-import { cn } from '@/lib/utils';
+import { cn, formatBasePrice } from '@/lib/utils';
 
 function ExpandableTeam({ team, rank }) {
   const [expanded, setExpanded] = useState(false);
@@ -248,7 +248,7 @@ export default function Results() {
                 {result.unsoldPlayers.map((p, i) => (
                   <div key={i} className="px-3 py-2 rounded-lg bg-muted/20 text-xs">
                     <span className="text-foreground font-medium">{p.name}</span>
-                    <span className="text-muted-foreground ml-2">₹{p.basePrice} Cr</span>
+                    <span className="text-muted-foreground ml-2">{formatBasePrice(p.basePrice)}</span>
                   </div>
                 ))}
               </div>

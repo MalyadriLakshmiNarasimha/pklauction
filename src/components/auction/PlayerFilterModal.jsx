@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
 import RoleBadge from '../shared/RoleBadge';
-import { cn } from '@/lib/utils';
+import { cn, formatBasePrice } from '@/lib/utils';
 
 export default function PlayerFilterModal({ open, onOpenChange, players, selectedIds, onSelectionChange, readOnly = false }) {
   const [search, setSearch] = useState('');
@@ -121,7 +121,7 @@ export default function PlayerFilterModal({ open, onOpenChange, players, selecte
                   <p className="text-xs text-muted-foreground">{player.team}</p>
                 </div>
                 <RoleBadge role={player.role} />
-                <span className="text-xs font-bold text-pkl-yellow flex-shrink-0">₹{player.basePrice} Cr</span>
+                <span className="text-xs font-bold text-pkl-yellow flex-shrink-0">{formatBasePrice(player.basePrice)}</span>
               </motion.button>
             );
           })}

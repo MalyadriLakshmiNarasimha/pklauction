@@ -1,0 +1,492 @@
+rank,name,matches,defence_points
+1,Fazel Atrachali,207,597
+2,Nitesh Kumar,201,564
+3,Po Surjeet Singh,190,476
+4,Sunil Kumar,178,442
+5,Manjeet Chhillar,132,391
+6,Parvesh Bhainswal,179,381
+7,Sandeep Narwal,156,360
+8,Vishal Bhardwaj,136,359
+9,Girish Maruti Ernak,143,359
+10,Mahender Singh,165,345
+11,Ravinder Pahal,124,339
+12,Saurabh Nandal,131,333
+13,Sandeep Kumar Dhull,118,328
+14,Ran Singh,156,299
+15,Mohit Chhillar,109,277
+16,Surender Nada,101,274
+17,Amit Hooda,103,268
+18,Dharmaraj Cheralathan,123,261
+19,Jeeva Kumar,136,257
+20,Shubham Shashikant Shinde,117,244
+21,Rahul Sethpal,99,243
+22,Neeraj Kumar,134,238
+23,Rinku Sharma,91,234
+24,Kuldeep Singh,125,230
+25,Ashu Singh,128,228
+26,Ravi Kumar,132,214
+27,Gaurav Khatri,80,212
+28,Joginder Singh Narwal,109,210
+29,Abinesh Nadarajan,103,207
+30,Vishal Mane,135,203
+31,Abozar Mohajermighani,85,203
+32,Yogesh Bijender Dahiya,64,200
+33,Ankit Jaglan,70,196
+34,Reza Mirbagheri,80,188
+35,Sahil Gulia,76,187
+36,Mohammadreza Shadloui,48,181
+37,Nitin Rawal,120,181
+38,Sumit Sangwan,63,179
+39,Jaideep Kuldeep Dahiya,63,175
+40,Mohammadreza Shadloui Chianeh,44,173
+41,Sagar Rathee,57,168
+42,Krishan Dhull,85,160
+43,Deepak Singh,77,158
+44,Mohit Nandal,67,156
+45,Vishal Lather,69,156
+46,Sahul Kumar,83,152
+47,Rinku Narwal,75,148
+48,Ankush Rathee,47,143
+49,Ashish Sahdev Malik,55,141
+50,Rohit Rana,82,136
+51,Abishek S Manokaran,78,135
+52,Nilesh Shinde,69,135
+53,Surender Singh,94,129
+54,Sanket Suresh Sawant,105,127
+55,Hadi Oshtorak,93,127
+56,Anil Kumar,92,126
+57,C. Arun,105,121
+58,Surinder Singh,57,120
+59,Jaideep Kuldeep,43,120
+60,Sachin Shingade,75,119
+61,Rajesh Narwal,92,113
+62,Jasmer Singh Gulia,52,109
+63,Sandeep Kandola,46,107
+64,Ashish Kumar,76,106
+65,Mohit Khaler,47,104
+66,Vinod Kumar,101,104
+67,Sanjay Krishan Dhull,50,103
+68,D. Suresh Kumar,59,103
+69,Ajit Pandurang Pawar,63,102
+70,Baldev Singh,58,100
+71,Deepak Niwas Hooda,157,99
+72,Vikas Kale,60,99
+73,Amit Sheoran,50,97
+74,Bajirao Hodage,61,95
+75,Mohit Goyat,79,95
+76,Mayur Jagannath Kadam,69,92
+77,Lucky Sharma,62,91
+78,Vaibhav Garje,48,90
+79,Harendra Kumar,77,90
+80,Sombir Goswami,32,87
+81,Somvir Shekhar,52,86
+82,Aslam Inamdar,87,84
+83,Ruturaj Shivaji Koravi,50,82
+84,Shrikant Tewthia,74,81
+85,Mohammad Esmaeil Nabibakhsh,79,79
+86,Farhad Rahimi Milaghardan,62,79
+87,Mohit Jakhar,59,78
+88,Sagar B Krishna,72,77
+89,Rakesh Kumar,55,74
+90,Amir Hossein Bastami,38,70
+91,Anup Kumar,91,69
+92,Aashish Umed,47,68
+93,Sagar Rathe,18,66
+94,Jitender Yadav,28,65
+95,Pawan Kumar Sehrawat,115,65
+96,Deepak Sankar,19,64
+97,Amit Kumar,50,64
+98,Amit Nirwal,39,62
+99,Sunil Siddhgavali,46,61
+100,Rahul Chaudhari,143,61
+101,Nitin Panwar,43,60
+102,Arkam Shaikh,47,59
+103,More Gb,72,59
+104,Manoj Kumar,52,59
+105,Amit Singh Chhillar,34,59
+106,Aman Mukesh,28,59
+107,Sandeep Deswal,39,56
+108,Prashant Chavan,41,56
+109,Sachin Kumar,49,56
+110,Mohsen Maghsoudloujafari,75,56
+111,Jawahar Dagar,46,56
+112,Rajaguru Subramanian,46,54
+113,Meraj Sheykh,99,54
+114,Shankar Bhimraj Gadai,67,53
+115,Amir Md. Zafardanesh,58,52
+116,Sajin Chandrasekar,41,52
+117,Kashiling Adake,92,51
+118,Naveen Kundu,31,51
+119,Aryan Satyawan Kumar,19,50
+120,Rakesh Singh Kumar,49,49
+121,Rohit Kumar,108,49
+122,Shubham Kumar,39,48
+123,Sourav Gulia,27,48
+124,Sachin Tanwar,121,48
+125,Rishank Devadiga,107,47
+126,D. Gopu,34,47
+127,Darshan J.,29,46
+128,Sachin Khambe,22,46
+129,Sagar Sethpal Rawal,28,46
+130,Neeraj Narwal,84,44
+131,Surinder Singh Dehal,25,43
+132,Ashish N,38,42
+133,Lokesh Jaisaram Ghosliya,24,42
+134,Deepanshu Pardeep Khatri,19,42
+135,Monu Goyat,97,41
+136,Jadhav Balasaheb Shahaji,32,41
+137,Vikas Jaglan,49,41
+138,Ponparthiban Subramanian,35,40
+139,Sunil Jaipal,36,38
+140,Akash Choudhary,22,38
+141,Nitin Tomar,86,38
+142,Manjeet Sanjay Mitra Choudary,24,38
+143,Mohammadreza Shadloui Chiyaneh,17,37
+144,Mohit Randhir Rathee,14,36
+145,Shyam Kumar Sah,27,36
+146,Abhishek Ks,31,35
+147,Vijin Thangadurai,59,35
+148,Shrikant Jadhav,110,35
+149,Milad Jabbari,13,33
+150,D. Pradap,29,33
+151,Vijay Malik,77,32
+152,Ziaur Rahman,34,32
+153,Jasvir Singh,73,32
+154,Pankaj Deepak Mohite,80,32
+155,Adarsh T,58,32
+156,Bharat Hooda,44,31
+157,Sachin Vittala,29,31
+158,Vijay Kumar,37,30
+159,Viraj Vishnu Landge,35,30
+160,Preetam Chhillar,58,30
+161,Ajinkya Ashok Pawar,78,30
+162,Mahipal Narwal,32,30
+163,Rohit Baliyan,65,29
+164,Avi Duhan,20,29
+165,Ashish Kumar Sangwan,23,29
+166,Parmod Narwal,34,28
+167,Mayur Shivtarkar,34,27
+168,Krushna Madane,18,27
+169,Wasim Sajjad,15,27
+170,Chandran Ranjit,83,27
+171,Gurpreet Singh,18,26
+172,Balaji D,19,26
+173,Young Chang Ko,41,26
+174,Naveen Rawal,25,26
+175,Vineet Sharma,43,26
+176,Ankit Jai Bhagwan Dahiya,11,25
+177,Ashu Malik,45,25
+178,Kalimuthu Balamahendran,20,25
+179,Narender Hoshiyar Kandola,44,25
+180,Akshay Jadhav,28,25
+181,Jang Kun Lee,85,25
+182,Parteek Dahiya,54,24
+183,Mohammadreza Kaboudrahangi,23,24
+184,Arul Nandha Babu Velusamy,17,24
+185,Hadi Tajik,23,24
+186,Sahil Azad Narwal,14,24
+187,Mahesh Goud,57,24
+188,Manoj Dhull,26,24
+189,Satyappa Matti,18,24
+190,Amirhossein Bastami,16,23
+191,Raju Lal Choudhary,22,23
+192,Harsh Mahesh Lad,12,23
+193,Gurvinder Singh,42,23
+194,Surender Gill,55,23
+195,Shabeer Bappu,58,23
+196,Wazir Singh,44,22
+197,Gangadhari Mallesh,36,22
+198,Rahul Kumar,30,22
+199,Dadaso Shivaji Pujari,17,22
+200,Mohit Sehrawat,28,22
+201,Kiran Laxman Magar,16,21
+202,Aditya S Shinde,16,21
+203,Swapnil Dilip Shinde,21,21
+204,Navneet Gautam,28,21
+205,Ajay Thakur,102,21
+206,Sunny Sherawat,14,21
+207,Manish Dhull,28,20
+208,Ashish Randhir Bambal,17,20
+209,Vikash Kandola,88,20
+210,Vishwanath Vijaykumar,29,20
+211,Mahendra Ganesh Rajput,67,20
+212,Ronak Singh Chaudhary,28,20
+213,Bittu Baldeva Banwala,11,20
+214,Gokula Manoharan Kannan,13,19
+215,Himanshu Virender Singh,58,19
+216,Gaurav Hari Om Chillar,15,19
+217,Sumit Malik,20,19
+218,Rohit Mansingh Raghav,30,19
+219,Nitin More,22,19
+220,Rohit Surender Nandal,16,19
+221,Shivam Anil Patare,43,19
+222,Samarjeet Singh,22,19
+223,Vijay Kumar Ajver Redhu,18,19
+224,Hardeep Ranbir,15,19
+225,Vijay Kumar Ajmer Redhu,14,19
+226,Rohit Gulia,75,18
+227,Ashish Kaptan Narwal,22,18
+228,Rohit Tomar,18,17
+229,Rahul Rakesh Kalirawna Ahri,11,17
+230,Ayan Lohchab,47,17
+231,Monu Hooda,14,17
+232,Himanshu Jaglan,8,17
+233,Dadaso Balaso Awad,12,17
+234,Pavan Tr,26,17
+235,Mohammad Esmaeil Maghsoudlou Mahalli,28,16
+236,S Mahalingam,11,16
+237,Balaji Dhanabal,19,16
+238,Jaskirat Singh,14,16
+239,Akshay Anil Rathee,15,16
+240,Jitesh Joshi,19,16
+241,Ankit Beniwal,29,16
+242,Suresh Jadhav,10,16
+243,Sukesh Hegde,91,16
+244,Mohd Amaan,23,15
+245,Muhammed Shihas S,14,15
+246,Hamid Mirzaei Nader,18,15
+247,Nilesh Salunke,74,15
+248,Sanket Chavan,13,15
+249,Rakesh Gowda,26,15
+250,Deepak Kumar Rathee,20,15
+251,Ram Kumar Sah,9,15
+252,Prince D,23,15
+253,Naveen Kumar,85,14
+254,Babu Murugasan,11,14
+255,Anuj Kaluram Gawade,13,14
+256,Sagar Khatale,12,14
+257,Siddhesh Tatkare,10,14
+258,Amit Kharb,24,14
+259,Surjeet Narwal,31,14
+260,Arpit Saroha,8,14
+261,Rupesh Tomar,15,14
+262,Mukilan Shanmugam,9,14
+263,Vijay Jaglan,22,14
+264,Darshan J,9,14
+265,Chetan Jaybir Sahu,18,13
+266,Anurag Jai Kanwar,11,13
+267,Rahul Rakesh Kalirawna,7,13
+268,Arul Nantha Babu Velusamy,11,13
+269,Maninder Singh,80,13
+270,Deepak Narwal,77,13
+271,Darpan Chauhan,9,13
+272,Himmat Antil,8,12
+273,Bhupender Singh,26,12
+274,Jeeva Gopal,19,12
+275,Deepak Dhull,9,12
+276,Parveen Satpal,21,12
+277,Abhishek Singh,74,12
+278,Sumit Singh,33,12
+279,N. Renjith,11,12
+280,Milan Mahak Singh Dahiya,16,12
+281,Rakesh Narwal,43,12
+282,Shubham Shinde,10,12
+283,Vaibhav Satappa Rabade,9,12
+284,Nitin Deswal,13,11
+285,Tapas Pal,9,11
+286,G.S. Manikandan,20,11
+287,Naveen Dilbag,27,11
+288,Thiyagarajan Yuvaraj,12,11
+289,Hemraj Choudhary,9,11
+290,Darshan Kadian,40,11
+291,Yatharth Deshwal,6,11
+292,Seong Ryeol Kim,15,11
+293,Vijender Singh,7,10
+294,Vinay Virender Redhu,26,10
+295,Manjeet Dahiya,23,10
+296,Yogesh Hooda,21,10
+297,Rakesh Sungroya,37,10
+298,Prashanth Kumar Rai,75,10
+299,Sagar Kumar Bipin Singh,9,10
+300,Ravinder Kumar,9,10
+301,Praveen Thakur,11,10
+302,Moein Shafaghi,14,10
+303,Rajesh Mondal,78,10
+304,Akash Santosh Shinde,37,9
+305,Shivansh Thakur,6,9
+306,Sonu Jaglan,29,9
+307,Visvanth V,12,9
+308,Deepak Kumar,7,9
+309,Santhosh B.S,9,9
+310,Siddharth Sirish Desai,63,9
+311,Amit Nagar,16,9
+312,Pardeep Narwal,54,9
+313,Umesh Mhatre,8,9
+314,Rakesh Rajesh,8,9
+315,Harvinder Singh,4,8
+316,Nitin Madane,25,8
+317,Deepak Kumar Dahiya,41,8
+318,Sandeep Azad Saini,12,8
+319,Abhijeet Malik,14,8
+320,Ashish Jagat Birwal,21,8
+321,Abolfazl Maghsodloumahali,29,8
+322,Deepak Yadav,4,8
+323,Tae Deok Eom,28,8
+324,Cpo Surjeet Singh,27,8
+325,Lucky Jaydev Dhankar,9,8
+326,Ravindra Ramesh Kumawat,23,8
+327,Sushil Kambrekar,10,8
+328,Chand Singh,12,8
+329,S.Sanjeevi Shanmugam,17,8
+330,Manoj Gowda,21,8
+331,Omkar R More,11,8
+332,Aakash Dattu Arsul,6,8
+333,Brijendra Singh Chaudhary,7,8
+334,Saeid Ghaffari,9,8
+335,Galla Raju,13,7
+336,Badal Taqdir Singh,12,7
+337,Sudhakar Krishant Kadam,9,7
+338,Ajinkya Rohidas Kapre,25,7
+339,Sagar Kumar,1,7
+340,Jai Bhagwan,19,7
+341,Lalit Chaudhary,9,7
+342,Ravi Shivraj Bhati,9,7
+343,Phool Chandra Aman Singh,2,7
+344,Selvamani K,30,6
+345,Sahil Surender,7,6
+346,Mohit Pahal,3,6
+347,Aashish Malik,18,6
+348,Vaibhav Bhausaheb Garje,8,6
+349,Vahid Rezaeimehr,9,6
+350,Mohit Deswal,9,6
+351,Rohit Raghav,12,6
+352,Ravi Dalal,16,6
+353,Shivam Anil Thakur,20,6
+354,Amit Om Prakash Rathi,8,6
+355,Narender Hoshiyar,23,6
+356,Govind Gurjar,2,5
+357,Sakthivel R,7,5
+358,Ali Samadi,19,5
+359,Harsh Kumar,5,5
+360,Sahil Manoj Deswal,6,5
+361,Shivansh Prem Singh Thakur,10,5
+362,Varinder Singh,8,5
+363,Anuj Kumar,7,5
+364,T. Prasad,9,5
+365,Bhavani Rajput,22,5
+366,Vikas Kumar,14,5
+367,Vikas Tomar,8,5
+368,Parveen M. Jangra,6,5
+369,Manpreet Singh,13,5
+370,Jagdeesha K.K.,7,5
+371,Naveen Dharmbir Sharma,8,4
+372,Aditya Tushar Shinde,18,4
+373,Aryavardhan Navale,9,4
+374,Suresu Kumar,12,4
+375,Ashish Chhokar,11,4
+376,Isac Antony,7,4
+377,Rajeev Kumar,3,4
+378,Kethavath Hanumanthu,8,4
+379,Rathan K,5,4
+380,Pardeep Kumar,17,4
+381,Mohammad Malak,5,4
+382,Sushant Subhash Sail,11,4
+383,Tushar Patil,25,4
+384,Elavarasan A,3,4
+385,K. Prapanjan,48,4
+386,Kamal Singh,11,4
+387,Sudhanshu Tyagi,13,4
+388,C Manoj Kumar,12,4
+389,Mohammad Taghi Paein Mahali,11,4
+390,Anil Shriram Nimbolkar,6,4
+391,Elangeshwaran R,5,4
+392,E Subash,4,4
+393,Rajnesh Narwal,5,4
+394,Narender Hooda,9,3
+395,Soleiman Pahlevani,7,3
+396,Rohit Kumar Choudary,14,3
+397,Akash Pikalmunde,10,3
+398,K Prapanjan,20,3
+399,Parveen Kumar,8,3
+400,Alankar Kaluram Patil,3,3
+401,Victor Onyango Obiero,5,3
+402,Md Arif Rabbani,2,3
+403,Arjun Deshwal,41,3
+404,Muruthu M,3,3
+405,V. Ajith Kumar,21,3
+406,Durgesh Kumar,11,3
+407,Tushar Balaram Bhoir,8,3
+408,Mohit Rajesh,5,3
+409,Palle Mallikarjun,5,2
+410,Manish Dalbir Singh,2,2
+411,Mohit Balyan,2,2
+412,Babu M,2,2
+413,Gnanasekaran M,8,2
+414,Shashank Wankhede,3,2
+415,Aman Kumar,4,2
+416,Sushil Vijay Bhosle,2,2
+417,Anoop E.V.,2,2
+418,Amit Kumar Tomar,9,2
+419,Pradeep Kumar,6,2
+420,Sachin Narwal,29,2
+421,Ajay Kumar,30,2
+422,Azad Singh,9,2
+423,Lokesh Kaushik,6,2
+424,N. Shiva Ramakrishna,1,2
+425,M. Thivakaran,9,2
+426,Sandeep Malik,1,2
+427,Sumit Bhainswal,3,2
+428,Ranjit Venkatramana Naik,7,2
+429,Ramakrishna Suri Palla,4,2
+430,Gokul Shitole,3,2
+431,Dong Geon Lee,12,2
+432,Gulveer Singh,2,2
+433,Farhad Kamal Gharibi,2,2
+434,Ehsan Zamani Fard,8,2
+435,Meetu Mahender Sharma,20,2
+436,Sunil Hanumanthappa,5,2
+437,Lovepreet Gurdeep Singh,3,2
+438,Punit Kumar Teotia,4,2
+439,Heidarali Ekrami,12,2
+440,Simon Kibura,4,2
+441,Vikash Dilbaug Kumar,4,2
+442,Gaurav Suresh Kumar,6,2
+443,Rohit Dattatray Banne,6,2
+444,Pawan Kumar Kadian,19,2
+445,Pravin Niwale,15,2
+446,Guman Singh,19,2
+447,Nirbhay Narwal,2,1
+448,Mohammad Ghorbani,1,1
+449,Adinath Sakharam Gavali,1,1
+450,Sanoj Kumar,2,1
+451,R. Sriram,11,1
+452,Ajvender Singh,2,1
+453,Rahul Choudhary,5,1
+454,Vishnu Uthaman,3,1
+455,Ajay Singh,1,1
+456,Ravinandan G.M.,1,1
+457,Abhimanyu Kasilingam,6,1
+458,Navjot Singh,1,1
+459,Virender Wazir Singh,4,1
+460,Hardeep Duhan,1,1
+461,James Namaba Kamweti,5,1
+462,Mohammad Maghshoudulu,10,1
+463,Rohit Kumar Prajapat,3,1
+464,Sushil Gulia,7,1
+465,Rakesh Bhalle Ram,8,1
+466,Nitin Chandel,3,1
+467,Manish Gulia,4,1
+468,Hemant Chauhan,4,1
+469,Aman Kadian,4,1
+470,Naveen Narwal,3,1
+471,Sunil Subhash Lande,4,1
+472,Sinotharan Kanesharajah,1,1
+473,Mohammad Amin Nosrati,2,1
+474,Aman Hooda,1,1
+475,Wajid Ali,4,1
+476,Atif Waheed,3,1
+477,Takamitsu Kono,1,1
+478,Mangesh Bhagat,8,1
+479,Kedar Lal,9,1
+480,Hyunil Park,2,1
+481,Ravit Kumar,3,1
+482,Sanjay Kumar,7,1
+483,Aashish Nagar,3,1
+484,Nithesh B R,2,1
+485,Athul Ms,19,1
+486,Anand Surendra Tomar,5,1
+487,Vikram Kandola,1,1
+488,Suraj Desai,12,1
+489,Priyank Chandel,3,1
+490,Pranay Vinay Rane,11,1
+491,Vishwas S,4,1
